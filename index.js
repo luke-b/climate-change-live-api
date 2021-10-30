@@ -98,6 +98,10 @@ app.get('/', (req, res) => {
     res.json('Welcome to my Climate Change News API')
 })
 
+app.get('/test', (req, res) => {
+    res.json("test")
+})
+
 app.get('/news', (req, res) => {
     res.json(articles)
 })
